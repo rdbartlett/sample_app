@@ -14,6 +14,10 @@
 /log/*.log
 /tmp
 
-# Ignore vim swap files
+# Ignore unwanted files
+doc/
 *.swp
-*.swo
+*~
+.project
+.DS_Store
+bundler_stubs/
